@@ -1,13 +1,18 @@
 <?php
-use app\libs\Controller;
 
-class Home extends Controller{
+use app\libs\controller;
+
+class Home extends Controller
+{
+    private $userModel;
     public function __construct()
     {
-      
-        echo "I am constructor of " . __CLASS__ . " class<hr>";
-    }    public function index()
+        $this->userModel = $this->model("UserModel");
+    }
+    public function index($data = [])
     {
-        $this->view("home/index");
-    } 
+
+        $data = $this->userModel->getAllUser($data = []);
+        $this->view("home/index", $data);
+    }
 }

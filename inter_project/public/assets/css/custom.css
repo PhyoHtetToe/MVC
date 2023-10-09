@@ -1,0 +1,17 @@
+.english {
+  font-family: cambria;
+}
+header {
+  background: url(../img/bg.jpg);
+}
+ul.gg {
+  margin-right: auto;
+}
+#nav a:hover{
+     color: var(--bs-danger-bg-subtle) !important;;
+}
+body {
+  background-color:#ffcc99;
+
+}
+
