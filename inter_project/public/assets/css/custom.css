@@ -1,17 +1,11 @@
 .english {
   font-family: cambria;
 }
-header {
-  background: url(../img/bg.jpg);
+
+#nav a:hover {
+  color: black !important;
 }
-ul.gg {
-  margin-right: auto;
-}
-#nav a:hover{
-     color: var(--bs-danger-bg-subtle) !important;;
-}
+
 body {
-  background-color:#ffcc99;
-
+  background-color: #ffcc99;
 }
-

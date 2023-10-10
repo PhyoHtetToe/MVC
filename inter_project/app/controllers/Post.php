@@ -13,7 +13,7 @@ class Post extends Controller
     {
         echo "I am constructor of " . __CLASS__ . " class<hr>";
     }
-    public function show($data =[]){
-        
+    public function show($data = [])
+    {
     }
 }

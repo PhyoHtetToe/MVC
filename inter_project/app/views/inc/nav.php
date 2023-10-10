@@ -1,10 +1,9 @@
-
 <div class="container-fluid" style="background-color:#d88b5d;">
     <nav class=" container navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid" id="nav">
             <a class="navbar-brand" href="#" style="color:White;">
                 <img src=" <?php echo URLROOT . "assets/imgs/PALATA.png" ?> " alt="" style="width:5%; height:5%; border-radius: 50%; ">
-                Palata Myanmar</a>
+                Palata Kingdom</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -36,3 +35,4 @@
         </div>
     </nav>
 </div>
+<div class="d-flex">

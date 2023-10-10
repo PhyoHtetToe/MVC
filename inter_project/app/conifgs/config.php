@@ -7,4 +7,4 @@ define("DB_PASS", "");
 
 define("APPROOT" , dirname(dirname(__FILE__)));
 define("URLROOT", "http://freakindex.com/projects/inter_project/");
-define("SITE_NAME", "Silva");
+define("SITE_NAME", "Palata.org");
